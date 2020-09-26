@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Moodboard",
+  "version": "1.0",
+  "description": "This extension really helps Designer's to make MoodBoard",
+  "icons": {
+    "128": "logo-icon128.png",
+    "48": "logo-icon48.png",
+    "16": "logo-icon16.png"   
+  },
+
+  "browser_action": {
+    "default_title": "Pending uploads to Moodboard",
+    "default_icon": "logo-icon128.png",
+    "default_popup": "popup.html"
+  },
+
+  "options_page": "popup2.html",
+
+  "permissions": ["tabs", "storage", "notifications", "contextMenus", "<all_urls>"]
+}
